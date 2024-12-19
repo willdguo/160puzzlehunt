@@ -1,0 +1,61 @@
+
+def ans1 (url: String, int n) -> int:
+    # Hi my name is Chef ____ ______, I'm a personal chef in the Tuscon Arizona area
+    cut_pizza_procedure = watchVideoFromUrl(url)
+    
+    # And today I'm gonna show you how to properly cut a pizza into n slices
+    pizza = cut_pizza_procedure.intended_number_of_slices(n)
+    actual_number_of_slices = pizza.number_of_slices()
+
+    return n - actual_number_of_slices
+
+answer1 = ans1(______, 10)
+
+
+
+def ans2 (String number) -> int:
+    length = len(number)
+    word = numberToWord(length) 
+
+    if len(word) == length: return word
+    else: return ans2(word)
+     
+answer2 = ans2("One thousand one hundred and five")
+
+
+
+def ans3 (Date d) -> int:
+    numberOfSecondsThisWeek = []
+
+    for d <= day < d + 7:
+        numSeconds = 0
+        for second in day:
+            numSeconds += 1
+        numberOfSecondsThisWeek.append(numSeconds)
+
+    difference = max(numberOfSecondsThisWeek) - min(numberOfSecondsThisWeek)
+    return (difference // 75 - 43) // 5
+
+answer3 = ans3(Nov. 3rd, 2023)
+
+
+
+def ans4 (bool willToLive) -> String:
+    if not willToLive:
+        funnyProgrammingJoke = "Halloween == Christmas because..."
+        return funnyProgrammingJoke.answer()
+
+answer4 = ans4(false)[-2:]
+
+
+
+def getAnswer(answers: List) -> int:
+    keyword = answers.join(answers.map(
+        a: toEnglishAlphabet(a)
+    ))
+    return int(keyword) % 100 # don't forget to jump
+
+getAnswer([answer1, answer2, answer3, answer4])
+
+
+    

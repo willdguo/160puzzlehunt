@@ -1,0 +1,42 @@
+.puzzleContents {
+    padding: 20px;
+    /* display: flex; */
+}
+
+
+.story-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.story-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px; /* Set the max width of each story card */
+    margin: 0 auto;
+}
+
+.story-content {
+    white-space: pre-line; /* Keeps paragraph breaks in place */
+    word-wrap: break-word; /* Break long words if necessary */
+    margin-bottom: 10px;
+}
+
+.offset-line {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+
+.finalbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}

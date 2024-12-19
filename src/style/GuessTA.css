@@ -1,0 +1,61 @@
+.puzzleContents {
+    text-align: center;
+}
+
+.taColumn {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center the items horizontally */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+}
+
+.taCard {
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px; /* Max width of each card */
+}
+
+.imageWrapper {
+    width: 500px; /* Fixed width for images */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .imageWrapper {
+        max-width: 300px;
+    }
+}
+
+.taImage {
+    width: 100%; /* Image will fill the width of the container */
+    height: 100%; /* Image will fill the height of the container */
+    object-fit: contain; /* Ensures image is scaled proportionally */
+    border-radius: 8px;
+}
+
+.noImage {
+    font-size: 14px;
+    color: #888;
+    font-style: italic;
+}
+
+.caption {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.taCard .AnswerBox {
+    margin-top: 10px;
+}

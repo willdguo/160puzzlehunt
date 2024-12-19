@@ -1,0 +1,39 @@
+.puzzleContents {
+    text-align: center;
+}
+
+.clues, .chessmoves {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    gap: 20px; /* Adds space between items */
+    margin: 20px 0;
+    flex-wrap: wrap; /* Ensures items wrap if the screen is narrow */
+}
+
+.clueCard, .chessCard {
+    display: flex;
+    flex-direction: column; /* Stack index and image vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.clueIndex {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.clueImage {
+    width: 200px; /* Adjust width for consistent size */
+    height: 150px; /* Adjust height for consistent size */
+    object-fit: contain; /* Ensures images scale proportionally */
+    border: 1px solid #ccc; /* Optional: border around images */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+.chessImage {
+    width: 180px; /* Adjust width for consistent size */
+    height: 150px; /* Adjust height for consistent size */
+    object-fit: contain; /* Ensures images scale proportionally */
+    border: 1px solid #ccc; /* Optional: border around images */
+    border-radius: 8px; /* Optional: rounded corners */
+}

@@ -1,0 +1,54 @@
+.contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.custom-card {
+    width: 30%; /* Adjust the width of the card */
+    text-decoration: none; /* Remove default link styling */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for lift and shadow */
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-10px) rotate(1deg); /* Adds a slight rotation */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25); /* Adds a shadow for the lifting effect */
+  }
+
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .contents {
+        flex-direction: column; /* Stack items vertically */
+        align-items: stretch; /* Make items take up the full width */
+    }
+
+    .custom-card {
+        width: 100%; /* Make cards full width */
+    }
+}
+
+  .finalCard {
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .winnerCard {
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .card-img {
+    height: 250px; /* Set a fixed height */
+    width: 100%; /* Make the image fill the card width */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 5px; /* Optional: adds slight rounding to the edges */
+  }
+  
+  

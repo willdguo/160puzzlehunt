@@ -1,0 +1,36 @@
+/* Optional styling for AnswerBox */
+.answerbox {
+    margin-top: 20px;
+    /* padding: 10px; */
+    /* background: #eee; */
+    border-radius: 10px;
+}
+
+.answerbox button {
+    margin: 5px;
+    background-color: #6c7cfe; /* Soft, calming blue */
+    color: white; /* White text */
+    border: none;
+    padding: 4px 8px; /* Comfortable padding */
+    font-size: 16px;
+    font-weight: 500; /* Slightly bold for readability */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for color and hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.answerbox button:hover {
+    background-color: #5a66d1; /* Slightly darker blue on hover */
+    transform: translateY(-2px); /* Subtle lift on hover */
+}
+
+.answerbox button:active {
+    background-color: #4c57b2; /* Darker blue when clicked */
+    transform: translateY(0); /* Return to normal position */
+}
+
+.answerbox button:focus {
+    outline: none; /* Remove the default focus outline */
+    box-shadow: 0 0 0 4px rgba(108, 124, 254, 0.5); /* Focus ring with a calming blue */
+}

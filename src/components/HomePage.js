@@ -31,12 +31,12 @@ export default function HomePage() {
 
     const final = (
         <div>
-            Being a discrete math TA has been amazing. As your final puzzle, combine:
+            Being a discrete math TA has been a blast. As my final puzzle for you, concatenate:
             <ul>
                 <li> the initials of the 5th person in Guess the TA </li>
                 <li> the move of the unused puzzle in Disambi-guo-ation (excluding promotion)</li>
                 <li> the answer to the recitation puzzle, base (# of distinct recitations) + 1 </li>
-                <li> the very common suffix, 'ski' </li>
+                <li> the very common suffix, 'ski' (ran out of time for this one, you get a freebie) </li>
             </ul>
             into 1 cohesive word
 

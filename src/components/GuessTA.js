@@ -7,6 +7,7 @@ import imgDaniel from '../images/sushichef.png'
 import imgLandon from '../images/160v1.jpg'
 import imgOlivia from '../images/brawlstars.png'
 import imgMegan from '../images/inverted.png'
+import imgVictor from '../images/1konpattaya.png'
 
 const GuessTA = () => {
 
@@ -16,7 +17,8 @@ const GuessTA = () => {
         {id: 2, answer: 'landon', img: imgLandon, caption: 'Who made this image? First name only. (Hint: NOT A TA)'},
         {id: 3, answer: 'olivia hu', img: imgOlivia, caption: 'AI cooked with this one'},
         {id: 4, answer: 'megan yang', img: imgMegan, caption: 'srry had no images of this person so this one is kinda contrived'},
-        {id: 5, answer: 'kevin han', img: null, caption: "I'd ask them for a funny image, but they have no imagination"}
+        {id: 5, answer: 'victor zhu', img: imgVictor, caption:' bro who tf spent a grand on pattaya 😭'},
+        {id: 6, answer: 'kevin han', img: null, caption: "I'd ask them for a funny image, but they have no imagination"}
         // most submissions graded or smth? oooo that'd be funny
     ]
     
@@ -44,8 +46,8 @@ const GuessTA = () => {
             </div>
 
             <div className="finalbox">
-                To confirm you solved all puzzles here, put the first letter of all 6 names on this page in order:
-                <AnswerBox answer='dmlomk' id={1600}/>
+                To confirm you solved all puzzles here, put the first letter of all 7 names on this page in order:
+                <AnswerBox answer='dmlomvk' id={1600}/>
             </div>
         </div>
     )
